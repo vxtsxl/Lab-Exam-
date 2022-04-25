@@ -3,12 +3,12 @@ pipeline{
     stages{
         stage ('Testing'){
             steps{
-                echo'testing success'
+                echo'labexam.py'
             }
         }
         stage ('Build'){
             steps{
-                echo'build success'
+                echo'labexam.py'
             }
         }
     }
